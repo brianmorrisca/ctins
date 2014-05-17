@@ -1,0 +1,60 @@
+* { margin:0; padding:0; outline:none; box-sizing:border-box; }  
+html { overflow-y: scroll; }
+
+body { background-color:#fff; color:#333; font-size:100%; letter-spacing:0.015em; line-height:1.25em; font-family:Arial, sans-serif; }
+hr { border:0; border-bottom: 1px solid #4096EE; -webkit-box-shadow: 0 1px 0 0 #fff; -moz-box-shadow: 0 1px 0 0 #fff; box-shadow: 0 1px 0 0 #fff; }
+
+#container { width:1000px; margin:0 auto; padding-top:40px; }
+
+#logo {color:#fff; font-size:1.1em; text-decoration:none; }			
+
+#top { background-color:#111; }
+
+#option {background-color:#222;}
+
+#focus {background-color:#333; float:left; width:750px;height:410px;}
+
+#resources {background-color:#444; height:50px;clear:left;}
+
+#highlights {background-color:#555; height:300px;margin-bottom:50px; }
+
+#freequote {background-color:#666; width:250px; float:right;}
+
+#testimonials {background-color:#777;width:250px; float:right; }
+
+#footer {background-color:#999;}
+
+
+
+.transition { 
+-webkit-backface-visibility: hidden; position:relative;
+transition: all 200ms ease-out;
+transition-property: all;
+transition-duration: 200ms;
+transition-timing-function: ease-out;
+transition-delay: initial;
+-webkit-transition: all 200ms ease-out;
+-webkit-transition-property: all;
+-webkit-transition-duration: 200ms;
+-webkit-transition-timing-function: ease-out;
+-webkit-transition-delay: initial;
+}
+
+.clear {clear:both}
+
+.rounded-corners {
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -khtml-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.boxshadow {-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;}
+
+
+/* ABOUT PAGE */
+
+/* CONTACT PAGE */
+
