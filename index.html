@@ -27,10 +27,10 @@
 	<div id="container">
 
 		<ul id="top-nav">
-			<li>Home</li>
-			<li>About</li>
-			<li>Location</li>
-			<li>Contact</li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Location</a></li>
+			<li><a href="#">Contact</a></li>
 		</ul>
 
 		<div id="top">
@@ -52,19 +52,23 @@
 
 			<div id="resources">
 				<form>
-					<h1>Learn About</h1>
-					<select name="brochures" title="Informational Brochures">
-						<option>Brochure1</option>
-						<option>Brochure2</option>
-						<option>Brochure3</option>
-						<option>Brochure4</option>
-						<option>Brochure5</option>
+					<h1>Brochures</h1>
+					<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
+						<option>Select a Brochure</option>
+						<option value="/content/QIS-Personal_Overview_Brochure.pdf">Personal Insurance Overview</option>
+						<option value="/content/Life_Insurance_Brochure.pdf">Life Insurance</option>
+						<option value="/content/Living_Benefits_Brochure.pdf">Living Benefits</option>
+						<option value="/content/QIS-UL_for_Investing_Brochure.pdf">Policies for Investing</option>
+						<option value="/content/Segregated_Funds_Brochure.pdf">Segregated Funds</option>
+						<option value="/content/QIS-Annuities_Brochure.pdf">Annuities</option>
+						<option value="/content/GMWB_Brochure.pdf">Guaranteed Withdrawals</option>
 					</select>
 				</form>
 
 				<form>
-					<h1>Product Types</h1>
-					<select name="products" title="Product Types">
+					<h1>Products</h1>
+					<select name="products" title="Product Types" onchange="window.open(this.options[this.selectedIndex].value);">
+						<option>Product Descriptions</option>
 						<option>Whole Life</option>
 						<option>Term Life</option>
 						<option>Universal Life</option>
@@ -73,41 +77,44 @@
 					</select>
 				</form>
 
-				<form>
+				<form style="margin-right:0px;">
 					<h1>Supported Carriers</h1>
-					<select name="carriers" title="Informational Brochures">
-						<option>Assumption</option>
-						<option>Benefits By Design</option>
-						<option>BMO Insurance</option>
-						<option>Canada Life</option>
-						<option>CUMIS</option>
-						<option>Dejardins</option>
-						<option>Empire Life</option>
-						<option>Encon</option>
-						<option>Equitable Life</option>
-						<option>Great West Life</option>
-						<option>Industrial Alliance</option>
-						<option>Manulife</option>
-						<option>Olympia Benefits</option>
-						<option>RBC Insurance</option>
-						<option>Sun Life</option>
-						<option>SSQ Insurance</option>
-						<option>Standard Life</option>
-						<option>The Edge</option>
-						<option>Transamerica</option>
+					<select name="carriers" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
+						<option>View Carrier Websites</option>
+						<option value="http://www.assumption.ca">Assumption</option>
+						<option value="http://www.bbd.ca">Benefits By Design</option>
+						<option value="http://www.bmo.com">BMO Insurance</option>
+						<option value="http://www.canadalife.com">Canada Life</option>
+						<option value="http://www.cumis.com">CUMIS</option>
+						<option value="http://www.desjardins.com">Dejardins</option>
+						<option value="http://www.empire.ca">Empire Life</option>
+						<option value="http://www.encon.ca">Encon</option>
+						<option value="http://www.equitable.ca">Equitable Life</option>
+						<option value="http://www.greatwestlife.com">Great West Life</option>
+						<option value="http://www.inalco.com">Industrial Alliance</option>
+						<option value="http://www.manulife.com">Manulife</option>
+						<option value="http://www.olympiabenefits.com">Olympia Benefits</option>
+						<option value="http://www.rbcinsurance.com">RBC Insurance</option>
+						<option value="http://www.sunlife.com">Sun Life</option>
+						<option value="http://www.ssq.ca/insurance/">SSQ Insurance</option>
+						<option value="http://www.standardlife.ca">Standard Life</option>
+						<option value="http://www.edgebenefits.com">The Edge</option>
+						<option value="http://www.transamerica.ca">Transamerica</option>
 					</select>
 				</form>				
 			</div>
 			
 			<div id="highlights">
-				
+				<img src="http://placehold.it/250x100">
+				<img src="http://placehold.it/250x100">
+				<img src="http://placehold.it/200x100">
 			</div>
 		</div>
 
 		<div id="right-subcontainer">
-			<div id="freequote-form" class="transition">
+			<div id="freequote-form">
 		        <h1>Instant Quote</h1>
-		        <form action="http://www.winquote.net/compete.pl" name="wq_form" onsubmit='submitting = 1; return pageSetdown();' class="transition" >   
+		        <form action="http://www.winquote.net/compete.pl" name="wq_form" onsubmit='submitting = 1;'>   
 		        	<table>
 		                <tr>
 		                    <td><p>Birth Date</p></td>
@@ -469,7 +476,8 @@
 		            <p>"Professional and accommodating." <br><i>- Marko, Ancaster</i></p>
 					<p>"I appreciate getting the best rate possible on my coverage. Thank you!" <br><i>- Dave, Toronto</i></p>
 					<p>"I saved money on my mortgage insurance and got better coverage." <br><i>- Tom, Hamilton</i></p>
-		        </div><!-- End testimonial-slides -->			
+		        </div><!-- End testimonial-slides -->	
+		        <a href="#">Read More &#8594;</a>
 			</div>
 		</div><!-- end right-subcontainer -->
 		
@@ -477,10 +485,10 @@
 
 		<div id="footer" class="gradient">
 			<ul id="footer-nav">
-				<li>Privacy</li>
-				<li>Disclaimer</li>
-				<li>Site Map</li>
-				<li>Accessibility Statement</li>
+				<li><a href="">Privacy</a></li>
+				<li><a href="">Disclaimer</a></li>
+				<li><a href="">Site Map</a></li>
+				<li><a href="">Accessibility Statement</a></li>
 			</ul>
 			<a href="http://www.qtrade.ca/" target="_blank"><p>Insurance is offered through Qtrade Insurance Solutions Inc., a licensed life insurance agency and a member of Qtrade Financial Group.</p></a>
 		</div><!--end footer-->
@@ -493,7 +501,7 @@
 	$(function(){
 	  $("#testimonial-slides").slidesjs({
 	    width: 275,
-	    height: 120,
+	    height: 110,
 	    play: {
 	    	auto: true,
 	    	effect: "fade"
@@ -507,18 +515,30 @@
 	  });
 	});
 </script>
-
 <script>
     $('#personal').click(function() {
     	$('#personal').css('font-weight', '');
 		$('#business').css('font-weight', '');
 		$('#option').css('background', ''); 
-
+		$('#resources').css('border-top', '');
+		$('#resources').css('border-bottom', '');
+		$('#freequote-form').css('background-color', '');
+		$('#freequote-form').css('border', '');
+		$('#testimonials').css('background-color', '');
+		$('#testimonials').css('border', '');
     });
 
     $('#business').click(function() {	
     	$('#personal').css('font-weight', 'normal');
-    	$('#business').css('font-weight', 'bold');	
+    	$('#business').css('font-weight', 'bold');
+    	$('#resources').css('border-top', '1px solid #499bea');	
+    	$('#resources').css('border-bottom', '1px solid #499bea');
+    	$('#freequote-form').css('background-color', '#9CCEFF');
+    	$('#freequote-form').css('border', '1px solid #499bea');
+    	$('#freequote-form').css('border-top', '');
+    	$('#testimonials').css('background-color', '#9CCEFF');
+    	$('#testimonials').css('border', '1px solid #499bea');
+    	$('#testimonials').css('border-top', '');
 		$('#option').css('background', '#499bea');
 		$('#option').css('background', 'url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5OWJlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMDdjZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)');
 		$('#option').css('background', '-moz-linear-gradient(top,  #499bea 0%, #207ce5 100%)');
