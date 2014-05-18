@@ -49,8 +49,10 @@
 			<div id="focus">
 				<img src="http://placehold.it/750x400">
 			</div>
+
 			<div id="resources">
 				<form>
+					<h1>Learn About</h1>
 					<select name="brochures" title="Informational Brochures">
 						<option>Brochure1</option>
 						<option>Brochure2</option>
@@ -59,6 +61,42 @@
 						<option>Brochure5</option>
 					</select>
 				</form>
+
+				<form>
+					<h1>Product Types</h1>
+					<select name="products" title="Product Types">
+						<option>Whole Life</option>
+						<option>Term Life</option>
+						<option>Universal Life</option>
+						<option>Annuities</option>
+						<option>Segregated Funds</option>
+					</select>
+				</form>
+
+				<form>
+					<h1>Supported Carriers</h1>
+					<select name="carriers" title="Informational Brochures">
+						<option>Assumption</option>
+						<option>Benefits By Design</option>
+						<option>BMO Insurance</option>
+						<option>Canada Life</option>
+						<option>CUMIS</option>
+						<option>Dejardins</option>
+						<option>Empire Life</option>
+						<option>Encon</option>
+						<option>Equitable Life</option>
+						<option>Great West Life</option>
+						<option>Industrial Alliance</option>
+						<option>Manulife</option>
+						<option>Olympia Benefits</option>
+						<option>RBC Insurance</option>
+						<option>Sun Life</option>
+						<option>SSQ Insurance</option>
+						<option>Standard Life</option>
+						<option>The Edge</option>
+						<option>Transamerica</option>
+					</select>
+				</form>				
 			</div>
 			
 			<div id="highlights">
@@ -67,100 +105,101 @@
 		</div>
 
 		<div id="right-subcontainer">
-			<div id="freequote">
-				<div id="freequote-form" class="transition">
-			        <h1>Instant Quote</h1>
-			        <form action="http://www.winquote.net/compete.pl" name="wq_form" onsubmit='submitting = 1; return pageSetdown();' class="transition" >   
-			        	<table>
-			                <tr>
-			                    <td><p>Birth Date</p></td>
-			                    <td>
-			                        <select name="month" title="Month of Birth">
-			                            <option selected value="01">Jan</option>
-			                            <option value="02">Feb</option>
-			                            <option value="03">Mar</option>
-			                            <option value="04">Apr</option>
-			                            <option value="05">May</option>
-			                            <option value="06">Jun</option>
-			                            <option value="07">Jul</option>
-			                            <option value="08">Aug</option>
-			                            <option value="09">Sept</option>
-			                            <option value="10">Oct</option>
-			                            <option value="11">Nov</option>
-			                            <option value="12">Dec</option>
-			                        </select>
-			                        <select name="day" title="Birth Day">
-			                            <option>1</option>
-			                            <option>2</option>
-			                            <option>3</option>
-			                            <option>4</option>
-			                            <option>5</option>
-			                            <option>6</option>
-			                            <option>7</option>
-			                            <option>8</option>
-			                            <option>9</option>
-			                            <option>10</option>
-			                            <option>11</option>
-			                            <option>12</option>
-			                            <option>13</option>
-			                            <option>14</option>
-			                            <option selected >15</option>
-			                            <option>16</option>
-			                            <option>17</option>
-			                            <option>18</option>
-			                            <option>19</option>
-			                            <option>20</option>
-			                            <option>21</option>
-			                            <option>22</option>
-			                            <option>23</option>
-			                            <option>24</option>
-			                            <option>25</option>
-			                            <option>26</option>
-			                            <option>27</option>
-			                            <option>28</option>
-			                            <option>29</option>
-			                            <option>30</option>
-			                            <option>31</option>
-			                        </select>
-			                        <select name="year" title="Year of Birth">
-			                            <script>
-			                            //<!--
-			                                var choosenBirthYear = (thisDate.getFullYear() - 49);
-			                                for (count= (thisDate.getFullYear() - 99);count< ( thisDate.getFullYear() + 15 );count++)	{
-			                                    var s = "<option value=\"" + count + "\" ";
-			                                    s += (choosenBirthYear == count) ? "selected>" : ">";
-			                                    document.writeln(s + count);
-			                                }
-			                            //-->
-			                            </script>
-			                        </select>
-			                    </td>
-			                </tr>
-			                <tr>
-			                    <td><p>Gender</p></td>
-			                    <td>
-			                        <input checked name="First Client Gender" type="radio" value="1" title="Gender" ><span class="freequote-radio">Male</span>
-			                        <input name="First Client Gender" type="radio" value="2" title="Gender" ><span class="freequote-radio">Female</span>
-			                    </td>
-			                </tr>
-			                <tr>
-			                    <td>
-			                        <p>Ever Smoke?</p>
-			                    </td>
-			                    <td>
-			                        <input type="radio" name="First Client Tobacco Use" value="Y" onclick='show_layer("tuLayer");' title="Smoker" ><span class="freequote-radio">Yes</span>
-			                        <input type="radio" name="First Client Tobacco Use" value="N" title="Smoker" onclick='hide_layer("tuLayer"); tufilterClear();'><span class="freequote-radio">No</span>
-			                    </td>
-			                    <td>
-			                        <tr style="display:none;" id="tuLayer">
-			                            <td>&nbsp;</td>
-			                            <td>
-			                                <table id="tuTable" border="0" cellspacing="0" cellpadding="0">
-			                                    <tr>
-			                                    	<td>Last used:</td>
-			                                    </tr>
-			                                    <tr>
-			                                        <td>
+			<div id="freequote-form" class="transition">
+		        <h1>Instant Quote</h1>
+		        <form action="http://www.winquote.net/compete.pl" name="wq_form" onsubmit='submitting = 1; return pageSetdown();' class="transition" >   
+		        	<table>
+		                <tr>
+		                    <td><p>Birth Date</p></td>
+		                </tr>
+		                <tr>
+		                    <td colspan="2">
+		                        <select name="month" title="Month of Birth">
+		                            <option selected value="01">Jan</option>
+		                            <option value="02">Feb</option>
+		                            <option value="03">Mar</option>
+		                            <option value="04">Apr</option>
+		                            <option value="05">May</option>
+		                            <option value="06">Jun</option>
+		                            <option value="07">Jul</option>
+		                            <option value="08">Aug</option>
+		                            <option value="09">Sept</option>
+		                            <option value="10">Oct</option>
+		                            <option value="11">Nov</option>
+		                            <option value="12">Dec</option>
+		                        </select>
+		                        <select name="day" title="Birth Day">
+		                            <option>1</option>
+		                            <option>2</option>
+		                            <option>3</option>
+		                            <option>4</option>
+		                            <option>5</option>
+		                            <option>6</option>
+		                            <option>7</option>
+		                            <option>8</option>
+		                            <option>9</option>
+		                            <option>10</option>
+		                            <option>11</option>
+		                            <option>12</option>
+		                            <option>13</option>
+		                            <option>14</option>
+		                            <option selected >15</option>
+		                            <option>16</option>
+		                            <option>17</option>
+		                            <option>18</option>
+		                            <option>19</option>
+		                            <option>20</option>
+		                            <option>21</option>
+		                            <option>22</option>
+		                            <option>23</option>
+		                            <option>24</option>
+		                            <option>25</option>
+		                            <option>26</option>
+		                            <option>27</option>
+		                            <option>28</option>
+		                            <option>29</option>
+		                            <option>30</option>
+		                            <option>31</option>
+		                        </select>
+		                        <select name="year" title="Year of Birth">
+		                            <script>
+		                            //<!--
+		                                var choosenBirthYear = (thisDate.getFullYear() - 49);
+		                                for (count= (thisDate.getFullYear() - 99);count< ( thisDate.getFullYear() + 15 );count++)	{
+		                                    var s = "<option value=\"" + count + "\" ";
+		                                    s += (choosenBirthYear == count) ? "selected>" : ">";
+		                                    document.writeln(s + count);
+		                                }
+		                            //-->
+		                            </script>
+		                        </select>
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td><p>Gender</p></td>
+		                    <td>
+		                        <input checked name="First Client Gender" type="radio" value="1" title="Gender" ><span class="freequote-radio"> Male&nbsp;&nbsp;</span>
+		                        <input name="First Client Gender" type="radio" value="2" title="Gender" ><span class="freequote-radio"> Female</span>
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td>
+		                        <p>Ever Smoke?</p>
+		                    </td>
+		                    <td>
+		                        <input type="radio" name="First Client Tobacco Use" value="Y" onclick='show_layer("tuLayer");' title="Smoker" ><span class="freequote-radio"> Yes&nbsp;&nbsp;</span>
+		                        <input type="radio" name="First Client Tobacco Use" value="N" title="Smoker" onclick='hide_layer("tuLayer"); tufilterClear();'><span class="freequote-radio"> No</span>
+		                    </td>
+		                    <td>
+		                        <tr style="display:none;" id="tuLayer">
+		                            <td>&nbsp;</td>
+		                            <td>
+		                                <table id="tuTable" border="0" cellspacing="0" cellpadding="0">
+		                                    <tr>
+		                                    	<td><p>Last used:</p></td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
 			                                        <select name="fp_smoker_cigarette" onchange='' >
 			                                            <option selected value="100">Cigarette</option>
 			                                            <option value="100">Never</option>
@@ -189,10 +228,10 @@
 			                                            <option value="15">More than 15 yrs ago</option>
 			                                            <option value="25">More than 25 yrs ago</option>
 			                                        </select>
-			                                        </td>
-			                                    </tr>
-			                                    <tr>
-			                                        <td>
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
 			                                        <select name="fp_smoker_pipe" onchange=''>
 			                                            <option selected value="100">Pipe</option>
 			                                            <option value="100">Never</option>
@@ -221,10 +260,10 @@
 			                                            <option value="15">More than 15 yrs ago</option>
 			                                            <option value="25">More than 25 yrs ago</option>
 			                                        </select>
-			                                        </td>
-			                                    </tr>
-			                                    <tr>
-			                                        <td>
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
 			                                        <select name="fp_smoker_cigarello" onchange='' >
 			                                            <option selected value="100">Cigarello</option>
 			                                            <option value="100">Never</option>
@@ -253,10 +292,10 @@
 			                                            <option value="15">More than 15 yrs ago</option>
 			                                            <option value="25">More than 25 yrs ago</option>
 			                                        </select>
-			                                        </td>
-			                                    </tr>
-			                                    <tr>
-			                                        <td>
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>
 			                                        <select name="fp_smoker_marijuana" onchange=''>
 			                                            <option selected value="100">Marijuana</option>
 			                                            <option value="100">Never</option>
@@ -285,156 +324,143 @@
 			                                            <option value="15">More than 15 yrs ago</option>
 			                                            <option value="25">More than 25 yrs ago</option>
 			                                        </select>
-			                                        </td>
-			                                    </tr>
-			                                    <tr>
-			                                        <td>&nbsp;</td>
-			                                    </tr>                                    
-			                                </table>
-			                            </td>
-			                        </tr><!-- end tuLayer -->
-			                    </td>
-			                </tr><!-- end Smoker row -->
-			
-			                <tr style="display:none;">
-			                    <td><p>Province</p></td>
-			                    <td>
-			                        <select name="Province" title="Province">
-			                            <script>
-			                            //<!--
-			                                var choosenProvince = "Ontario";
-			                                document.writeln("<option value=\"999\">Provinces");
-			                                for (count=0;count<province_array.length;count++)	{
-			                                    var s = "<option value=\"" + province_array[count][0] + "\" ";
-			                                    s += (choosenProvince == count || choosenProvince == province_array[count][0]) ? "selected>" : ">";
-			                                    document.writeln(s + province_array[count][0]);
-			                                }
-			                            //-->
-			                            </script>
-			                        </select>
-			                    </td>
-			                </tr>
-			                <tr>
-			                    <td><p>Coverage Type</p></td>
-			                    <td>
-			                        <select name="First Client Coverage Type" onchange='' title="Coverage Type" >
-			                            <script>
-			                            //<!--
-			                                var choosenPlanType = "03";
-			                                document.writeln("<option value=\"999\">Select Coverage");
-			                                for (count=0;count<plan_types_array.length;count++)	{
-			                                    tmpArray = new Array();
-			                                    tmpArray[0] = plan_types_array[count].toString().split(":");
-			                                    var s = "<option value=\"" + tmpArray[0][1] + "\" ";
-			                                    s += (choosenPlanType == tmpArray[0][1] || choosenPlanType == tmpArray[0][0]) ? "selected>" : ">";
-			                                    document.writeln(s + tmpArray[0][0]);
-			                                }
-			                            //-->
-			                            </script>
-			                        </select>
-			                    </td>
-			                </tr>
-			                <tr>
-			                    <td><p>Face Amount</p></td>
-			                    <td>
-			                        <select name="First Client Premium" title="Premium">
-			                            <option value="0">Face Amount</option>
-			                            <option>$ 25,000</option>
-			                            <option>$ 30,000</option>
-			                            <option>$ 35,000</option>
-			                            <option>$ 40,000</option>
-			                            <option>$ 45,000</option>
-			                            <option>$ 50,000</option>
-			                            <option>$ 55,000</option>
-			                            <option>$ 60,000</option>
-			                            <option>$ 65,000</option>
-			                            <option>$ 70,000</option>
-			                            <option>$ 75,000</option>
-			                            <option>$ 80,000</option>
-			                            <option>$ 85,000</option>
-			                            <option>$ 90,000</option>
-			                            <option>$ 95,000</option>
-			                            <option>$ 100,000</option>
-			                            <option>$ 125,000</option>
-			                            <option>$ 150,000</option>
-			                            <option>$ 175,000</option>
-			                            <option selected >$ 200,000</option>
-			                            <option>$ 225,000</option>
-			                            <option>$ 250,000</option>
-			                            <option>$ 275,000</option>
-			                            <option>$ 300,000</option>
-			                            <option>$ 325,000</option>
-			                            <option>$ 350,000</option>
-			                            <option>$ 375,000</option>
-			                            <option>$ 400,000</option>
-			                            <option>$ 425,000</option>
-			                            <option>$ 450,000</option>
-			                            <option>$ 475,000</option>
-			                            <option>$ 500,000</option>
-			                            <option>$ 550,000</option>
-			                            <option>$ 600,000</option>
-			                            <option>$ 650,000</option>
-			                            <option>$ 700,000</option>
-			                            <option>$ 750,000</option>
-			                            <option>$ 800,000</option>
-			                            <option>$ 850,000</option>
-			                            <option>$ 900,000</option>
-			                            <option>$ 950,000</option>
-			                            <option>$1,000,000</option>
-			                            <option>$1,250,000</option>
-			                            <option>$1,500,000</option>
-			                            <option>$1,750,000</option>
-			                            <option>$2,000,000</option>
-			                            <option>$2,250,000</option>
-			                            <option>$2,500,000</option>
-			                            <option>$2,750,000</option>
-			                            <option>$3,000,000</option>
-			                        </select>
-			                    </td>
-			                </tr>
-			                <tr>
-								<td><p>Payment</p></td>
-			                    <td>
-			                        <select name="Payment Schedule" size="1" title="Premium Payment Schedule" >
-			                            <option value="0">Annual</option>
-			                            <option value="1">Semi-Annual</option>
-			                            <option value="2">Quarterly</option>
-			                            <option selected value="3">Monthly</option>
-			                        </select>
-			                    </td>
-							</tr>	    
-			                <tr style="display:none;">
-			                    <td><p>Health Rating</p></td>
-			                    <td>
-			                        <select name="First Client Risk" title="Health Rating" >
-			                            <option value="1">Super Preferred</option>
-			                            <option value="2">Preferred</option>
-			                            <option value="4">Select Regular</option>
-			                            <option selected value="8">Regular</option>
-			                        </select>
-			                    </td>
-			                </tr>
-			                        
-			            </table>
-						
-						<br>
-						
-			            <table>
-			                <tr>
-			                    <td><input id="free-quote-submit" type="submit" value="Submit" accesskey="P"></td>
-			                    <td><input id="free-quote-reset" type="reset" value="Reset"  accesskey="R" onclick='hide_layer("tuLayer"); tufilterClear();'></td>
-			                </tr>
-			            </table>
-			
-			        
-			            <input type="hidden" name="type" value="single">
-			            <input type="hidden" name="co_code" value="ca1392235809">
-			            <input type="hidden" name="co_name" value="Qtrade Insurance Solutions Inc">
-			            <input type="hidden" name="report_type" value="rank">
-			            <input type="hidden" name="version_code" value="ca:sb">            
-			        </form>  
-				</div><!-- end free-quote-form -->
-			</div><!--End freequote -->		
+		                                        </td>
+		                                    </tr>
+		                                    <tr>
+		                                        <td>&nbsp;</td>
+		                                    </tr>                                    
+		                                </table>
+		                            </td>
+		                        </tr><!-- end tuLayer -->
+		                    </td>
+		                </tr><!-- end Smoker row -->
+		
+		                <tr style="display:none;">
+		                    <td><p>Province</p></td>
+		                    <td>
+		                        <select name="Province" title="Province">
+		                            <script>
+		                            //<!--
+		                                var choosenProvince = "Ontario";
+		                                document.writeln("<option value=\"999\">Provinces");
+		                                for (count=0;count<province_array.length;count++)	{
+		                                    var s = "<option value=\"" + province_array[count][0] + "\" ";
+		                                    s += (choosenProvince == count || choosenProvince == province_array[count][0]) ? "selected>" : ">";
+		                                    document.writeln(s + province_array[count][0]);
+		                                }
+		                            //-->
+		                            </script>
+		                        </select>
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td><p>Coverage Type</p></td>
+		                    <td>
+		                        <select name="First Client Coverage Type" onchange='' title="Coverage Type" >
+		                            <script>
+		                            //<!--
+		                                var choosenPlanType = "03";
+		                                document.writeln("<option value=\"999\">Select Coverage");
+		                                for (count=0;count<plan_types_array.length;count++)	{
+		                                    tmpArray = new Array();
+		                                    tmpArray[0] = plan_types_array[count].toString().split(":");
+		                                    var s = "<option value=\"" + tmpArray[0][1] + "\" ";
+		                                    s += (choosenPlanType == tmpArray[0][1] || choosenPlanType == tmpArray[0][0]) ? "selected>" : ">";
+		                                    document.writeln(s + tmpArray[0][0]);
+		                                }
+		                            //-->
+		                            </script>
+		                        </select>
+		                    </td>
+		                </tr>
+		                <tr>
+		                    <td><p>Face Amount</p></td>
+		                    <td>
+		                        <select name="First Client Premium" title="Premium">
+		                            <option value="0">Face Amount</option>
+		                            <option>$ 25,000</option>
+		                            <option>$ 30,000</option>
+		                            <option>$ 35,000</option>
+		                            <option>$ 40,000</option>
+		                            <option>$ 45,000</option>
+		                            <option>$ 50,000</option>
+		                            <option>$ 55,000</option>
+		                            <option>$ 60,000</option>
+		                            <option>$ 65,000</option>
+		                            <option>$ 70,000</option>
+		                            <option>$ 75,000</option>
+		                            <option>$ 80,000</option>
+		                            <option>$ 85,000</option>
+		                            <option>$ 90,000</option>
+		                            <option>$ 95,000</option>
+		                            <option>$ 100,000</option>
+		                            <option>$ 125,000</option>
+		                            <option>$ 150,000</option>
+		                            <option>$ 175,000</option>
+		                            <option selected >$ 200,000</option>
+		                            <option>$ 225,000</option>
+		                            <option>$ 250,000</option>
+		                            <option>$ 275,000</option>
+		                            <option>$ 300,000</option>
+		                            <option>$ 325,000</option>
+		                            <option>$ 350,000</option>
+		                            <option>$ 375,000</option>
+		                            <option>$ 400,000</option>
+		                            <option>$ 425,000</option>
+		                            <option>$ 450,000</option>
+		                            <option>$ 475,000</option>
+		                            <option>$ 500,000</option>
+		                            <option>$ 550,000</option>
+		                            <option>$ 600,000</option>
+		                            <option>$ 650,000</option>
+		                            <option>$ 700,000</option>
+		                            <option>$ 750,000</option>
+		                            <option>$ 800,000</option>
+		                            <option>$ 850,000</option>
+		                            <option>$ 900,000</option>
+		                            <option>$ 950,000</option>
+		                            <option>$1,000,000</option>
+		                        </select>
+		                    </td>
+		                </tr>
+		                <tr>
+							<td><p>Payment</p></td>
+		                    <td>
+		                        <select name="Payment Schedule" size="1" title="Premium Payment Schedule" >
+		                            <option value="0">Annual</option>
+		                            <option value="1">Semi-Annual</option>
+		                            <option value="2">Quarterly</option>
+		                            <option selected value="3">Monthly</option>
+		                        </select>
+		                    </td>
+						</tr>	    
+		                <tr style="display:none;">
+		                    <td><p>Health Rating</p></td>
+		                    <td>
+		                        <select name="First Client Risk" title="Health Rating" >
+		                            <option value="1">Super Preferred</option>
+		                            <option value="2">Preferred</option>
+		                            <option value="4">Select Regular</option>
+		                            <option selected value="8">Regular</option>
+		                        </select>
+		                    </td>
+		                </tr>       
+		            </table>
+					
+		            <table>
+		                <tr>
+		                    <td><input id="free-quote-submit" type="submit" value="Submit" accesskey="P"></td>
+		                    <td><input id="free-quote-reset" type="reset" value="Reset"  accesskey="R" onclick='hide_layer("tuLayer"); tufilterClear();'></td>
+		                </tr>
+		            </table>
+		
+		            <input type="hidden" name="type" value="single">
+		            <input type="hidden" name="co_code" value="ca1392235809">
+		            <input type="hidden" name="co_name" value="Qtrade Insurance Solutions Inc">
+		            <input type="hidden" name="report_type" value="rank">
+		            <input type="hidden" name="version_code" value="ca:sb">            
+		        </form>  
+			</div><!-- end freequote-form -->	
 
 			<div id="testimonials">
 			   	<h2>Testimonials</h2>
@@ -450,13 +476,12 @@
 
 
 		<div id="footer" class="gradient">
-		    <p id="disclaimer"> Please note: Comparisons and quotes are intended for
-		        guidance and educational purposes only.
-		        The consumer is urged to seek the advice of independent
-		        life insurance advisors. E.&amp; O.E.
-		        WinQuote&trade; is a trademark of CompuOffice Software Inc.
-			</p>
-		
+			<ul id="footer-nav">
+				<li>Privacy</li>
+				<li>Disclaimer</li>
+				<li>Site Map</li>
+				<li>Accessibility Statement</li>
+			</ul>
 			<a href="http://www.qtrade.ca/" target="_blank"><p>Insurance is offered through Qtrade Insurance Solutions Inc., a licensed life insurance agency and a member of Qtrade Financial Group.</p></a>
 		</div><!--end footer-->
 
