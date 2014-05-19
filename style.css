@@ -6,10 +6,13 @@ body { background-color:#fff; color:#333; -webkit-font-smoothing: antialiased; f
 a { color:#333; text-decoration: none;}
 a:hover {text-decoration: underline;}
 
+h1 { font-size:1em; }
+
 #container { width:1000px; margin:0 auto; padding-top:40px; }
 
 #top-nav { float:right; font-size:0.8em; margin-bottom:10px;}
 #top-nav li { float:left; list-style-type: none; margin-left:15px;}
+#home-nav { text-decoration: underline;}
 
 #logo {color:#555; font-size:1.2em; text-decoration:none; }			
 
@@ -35,9 +38,11 @@ a:hover {text-decoration: underline;}
 
 
 #left-subcontainer { float:left; width:750px;}
+
+#personal-left { overflow: hidden;}
 #focus { display:none; }
 .slidesjs-pagination { z-index:100; margin-top:-20px; position: absolute; }
-li.slidesjs-pagination-item { list-style-position: outside; list-style-type: none; display:list-item; float:left; }
+li.slidesjs-pagination-item { list-style-type: none; float:left; }
 li.slidesjs-pagination-item	a { text-indent:-999px; overflow:hidden; width:20px; height:20px; display:block; font-size:2em; background-color:#777;}
 li.slidesjs-pagination-item	a:hover { background-color:#444;}
 li.slidesjs-pagination-item	a.active { background-color:#999;}
@@ -51,13 +56,13 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 #highlights { margin-bottom:50px; }
 #highlights img { margin-right:10px; }
 
-#about-left { display:none; }
-#location-left { display:none; }
-#contact-left { display:none; }
-#privacy-left { display:none; }
-#disclaimer-left { display:none; }
-#sitemap-left { display:none; }
-#accessibility-left { display:none; }
+#about-left { display:none; padding-top:10px; }
+#location-left { display:none; padding-top:10px; }
+#contact-left { display:none; padding-top:10px; }
+#privacy-left { display:none; padding-top:10px; }
+#disclaimer-left { display:none; padding-top:10px; }
+#sitemap-left { display:none; padding-top:10px; }
+#accessibility-left { display:none; padding-top:10px; }
 
 #right-subcontainer {float:right; width:250px; }
 #freequote-form { background-color:#FFCD98; border:1px solid #ffa84c; border-top:0; padding:10px; }
