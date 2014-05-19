@@ -26,7 +26,7 @@ a:hover {text-decoration: underline;}
 		background: -ms-linear-gradient(top,  #ffa84c 0%,#ff7b0d 100%);
 		background: linear-gradient(to bottom,  #ffa84c 0%,#ff7b0d 100%);
 }
-#personal {float:left; margin-right:10px; font-weight:bold;}
+#personal {float:left; margin-right:10px; font-style:italic;}
 #personal:hover {cursor:pointer;}
 #business {float:left;}
 #business:hover {cursor:pointer;}
@@ -35,17 +35,29 @@ a:hover {text-decoration: underline;}
 
 
 #left-subcontainer { float:left; width:750px;}
-#focus { height:400px; }
+#focus { display:none; }
+.slidesjs-pagination { z-index:100; margin-top:-20px; position: absolute; }
+li.slidesjs-pagination-item { list-style-position: outside; list-style-type: none; display:list-item; float:left; }
+li.slidesjs-pagination-item	a { text-indent:-999px; overflow:hidden; width:20px; height:20px; display:block; font-size:2em; background-color:#777;}
+li.slidesjs-pagination-item	a:hover { background-color:#444;}
+li.slidesjs-pagination-item	a.active { background-color:#999;}
 
-#resources { margin-bottom:10px; border-top:1px solid #ffa84c; border-bottom:1px solid #ffa84c; padding:10px 0 10px 20px; clear:left; overflow:auto;}
+#resources { background-color:#FFCD98; margin-bottom:10px; padding:10px 0 10px 20px; clear:left; overflow:auto;}
 #resources h1 { font-size:1em; }
 #resources form {float:left; margin-right:50px; }
+#personal-brochures {}
+#business-brochures { display:none; }
 
 #highlights { margin-bottom:50px; }
-#highlights img { margin-right:10px; border:1px solid #ffa84c;}
+#highlights img { margin-right:10px; }
 
-
-
+#about-left { display:none; }
+#location-left { display:none; }
+#contact-left { display:none; }
+#privacy-left { display:none; }
+#disclaimer-left { display:none; }
+#sitemap-left { display:none; }
+#accessibility-left { display:none; }
 
 #right-subcontainer {float:right; width:250px; }
 #freequote-form { background-color:#FFCD98; border:1px solid #ffa84c; border-top:0; padding:10px; }
