@@ -197,6 +197,164 @@ $('#accessibility-nav').click(function() {
 });
 
 
+/* SITEMAP NAV */
+$('#site-home-nav').click(function() {
+    $('#home-nav').css('text-decoration', '');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '');
+    $('.slidesjs-pagination').css('display', '');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+});
+
+
+// About
+$('#site-about-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', 'underline');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');    
+    $('#about-left').css('display', 'block');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');    
+});
+
+// Location
+$('#site-location-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', 'underline');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', 'block');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+
+});
+// Contact
+$('#site-contact-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', 'underline');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', 'block');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+
+});
+// Privacy
+$('#site-privacy-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', 'underline');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', 'block');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+
+});
+// Disclaimer
+$('#site-disclaimer-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', 'underline');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', 'block');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+
+});
+
+// Accessibility
+$('#site-accessibility-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', 'underline');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', 'block');
+
+}); /* END SITEMAP NAV */
+
+
 
 $('#personal').click(function() {
 	$('#personal').css('text-decoration', '');

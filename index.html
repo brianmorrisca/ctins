@@ -35,9 +35,6 @@
 
 		<div id="top">
 			<a href="#" id="logo">Life Insurance in Ontario</a>
-			<input type="button" value="GO">
-			<input type="text" placeholder="Search">
-
 		</div>
 		
 		<div id="option">
@@ -58,7 +55,7 @@
 					<form id="personal-brochures">
 						<h1>Brochures</h1>
 						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option>Select a Brochure</option>
+							<option value="#">Select a Brochure</option>
 							<option value="content/QIS-Personal_Overview_Brochure.pdf">Personal Insurance Overview</option>
 							<option value="content/Life_Insurance_Brochure.pdf">Life Insurance</option>
 							<option value="content/Living_Benefits_Brochure.pdf">Living Benefits</option>
@@ -72,7 +69,7 @@
 					<form id="business-brochures">
 						<h1>Business Brochures</h1>
 						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option>Select a Brochure</option>
+							<option value="#">Select a Brochure</option>
 							<option value="content/Business_Protection.pdf">Business Protection</option>
 							<option value="content/Business_Succession.pdf">Business Succession</option>
 							<option value="content/Life_Insurance_for_Business.pdf">Life Insurance for Business</option>
@@ -86,7 +83,7 @@
 					<form>
 						<h1>Products</h1>
 						<select name="products" title="Product Types" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option>Product Descriptions</option>
+							<option value="#">Product Descriptions</option>
 							<option>Whole Life</option>
 							<option>Term Life</option>
 							<option>Universal Life</option>
@@ -98,10 +95,10 @@
 					<form style="margin-right:0px;">
 						<h1>Supported Carriers</h1>
 						<select name="carriers" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option>View Carrier Websites</option>
+							<option value="#">View Carrier Websites</option>
 							<option value="http://www.assumption.ca">Assumption</option>
 							<option value="http://www.bbd.ca">Benefits By Design</option>
-							<option value="http://www.bmo.com">BMO Insurance</option>
+							<option value="http://www.bmo.com/insurance">BMO Insurance</option>
 							<option value="http://www.canadalife.com">Canada Life</option>
 							<option value="http://www.cumis.com">CUMIS</option>
 							<option value="http://www.desjardins.com">Dejardins</option>
@@ -123,9 +120,9 @@
 				</div><!-- end resources -->
 				
 				<div id="highlights">
-					<img src="http://placehold.it/250x100">
-					<img src="http://placehold.it/250x100">
-					<img src="http://placehold.it/200x100">
+					<a href="http://www.comtechcu.com/" target="_blank"><img class="transition" src="img/comtech-highlight.jpg" width="250" height="100" alt="Comtech Credit Union"></a>
+					<a href="www.qtrade.ca/portal.do?division=insurance" target="_blank"><img class="transition" src="img/qis-highlight.jpg" width="250" height="100" alt="Qtrade Insurance Solutions"></a>					
+					<img class="transition" src="http://placehold.it/200x100" width="200" height="100" alt="Comtech Credit Union">
 				</div>
 			</div><!-- end personal-left -->
 
@@ -191,16 +188,34 @@
 
 			<div id="sitemap-left">
 				<h1 class="content-h1">Site Map</h1>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Location</a></li>
-					<li><a href="#">Contact</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Disclaimer</a></li>
-					<li><a href="#">Site Map</a></li>
-					<li><a href="#">Accessibility</a></li>
-				</ul>
+				<div class="sitemap-list">
+					<h2>Sections</h2>
+					<ul>
+						<li><a id="site-home-nav" href="#">Home</a></li>
+						<li><a id="site-about-nav" href="#">About</a></li>
+						<li><a id="site-location-nav" href="#">Location</a></li>
+						<li><a id="site-contact-nav" href="#">Contact</a></li>
+						<li><a id="site-privacy-nav" href="#">Privacy</a></li>
+						<li><a id="site-disclaimer-nav" href="#">Disclaimer</a></li>
+						<li><a href="#">Site Map</a></li>
+						<li><a id="site-accessibility-nav" href="#">Accessibility</a></li>
+					</ul>
+				</div>
+				<div class="sitemap-list">
+					<h2>Brochures</h2>
+					<ul>
+						<li><a href="content/QIS-Personal_Overview_Brochure.pdf" target="_blank">Personal Insurance Overview</a></li>
+						<li><a href="content/Life_Insurance_Brochure.pdf" target="_blank">Life Insurance</a></li>
+						<li><a href="content/Living_Benefits_Brochure.pdf" target="_blank">Living Benefits</a></li>
+						<li><a href="content/QIS-UL_for_Investing_Brochure.pdf" target="_blank">Policies for Investing</a></li>
+						<li><a href="content/Segregated_Funds_Brochure.pdf" target="_blank">Segregated Funds</a></li>
+						<li><a href="content/QIS-Annuities_Brochure.pdf" target="_blank">Annuities</a></li>
+						<li><a href="content/GMWB_Brochure.pdf" target="_blank">Guaranteed Withdrawals</a></li>
+						<li><a href="content/Business_Protection.pdf" target="_blank">Business Protection</a></li>
+						<li><a href="content/Business_Succession.pdf" target="_blank">Business Succession</a></li>
+						<li><a href="content/Life_Insurance_for_Business.pdf" target="_blank">Life Insurance for Business</a></li>
+					</ul>
+				</div>				
 			</div><!-- end sitemap-left -->
 
 			<div id="accessibility-left">
