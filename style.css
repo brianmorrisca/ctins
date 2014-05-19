@@ -65,6 +65,7 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 #location-left img { float:right; margin:0 20px;}
 
 #contact-left { display:none; padding-top:10px; }
+#contact-left fieldset { border:none; }
 
 #privacy-left { display:none; padding-top:10px; }
 #privacy-left h2 { font-size:0.9em; margin-bottom:10px;}

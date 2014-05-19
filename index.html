@@ -59,13 +59,13 @@
 						<h1>Brochures</h1>
 						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
 							<option>Select a Brochure</option>
-							<option value="/content/QIS-Personal_Overview_Brochure.pdf">Personal Insurance Overview</option>
-							<option value="/content/Life_Insurance_Brochure.pdf">Life Insurance</option>
-							<option value="/content/Living_Benefits_Brochure.pdf">Living Benefits</option>
-							<option value="/content/QIS-UL_for_Investing_Brochure.pdf">Policies for Investing</option>
-							<option value="/content/Segregated_Funds_Brochure.pdf">Segregated Funds</option>
-							<option value="/content/QIS-Annuities_Brochure.pdf">Annuities</option>
-							<option value="/content/GMWB_Brochure.pdf">Guaranteed Withdrawals</option>
+							<option value="content/QIS-Personal_Overview_Brochure.pdf">Personal Insurance Overview</option>
+							<option value="content/Life_Insurance_Brochure.pdf">Life Insurance</option>
+							<option value="content/Living_Benefits_Brochure.pdf">Living Benefits</option>
+							<option value="content/QIS-UL_for_Investing_Brochure.pdf">Policies for Investing</option>
+							<option value="content/Segregated_Funds_Brochure.pdf">Segregated Funds</option>
+							<option value="content/QIS-Annuities_Brochure.pdf">Annuities</option>
+							<option value="content/GMWB_Brochure.pdf">Guaranteed Withdrawals</option>
 						</select>
 					</form>
 
@@ -73,13 +73,13 @@
 						<h1>Business Brochures</h1>
 						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
 							<option>Select a Brochure</option>
-							<option value="/content/Business_Protection.pdf">Business Protection</option>
-							<option value="/content/Business_Succession.pdf">Business Succession</option>
-							<option value="/content/Life_Insurance_for_Business.pdf">Life Insurance for Business</option>
-							<option value="/content/Living_Benefits_Brochure.pdf">Living Benefits</option>
-							<option value="/content/Segregated_Funds_Brochure.pdf">Segregated Funds</option>
-							<option value="/content/QIS-Annuities_Brochure.pdf">Annuities</option>
-							<option value="/content/GMWB_Brochure.pdf">Guaranteed Withdrawals</option>
+							<option value="content/Business_Protection.pdf">Business Protection</option>
+							<option value="content/Business_Succession.pdf">Business Succession</option>
+							<option value="content/Life_Insurance_for_Business.pdf">Life Insurance for Business</option>
+							<option value="content/Living_Benefits_Brochure.pdf">Living Benefits</option>
+							<option value="content/Segregated_Funds_Brochure.pdf">Segregated Funds</option>
+							<option value="content/QIS-Annuities_Brochure.pdf">Annuities</option>
+							<option value="content/GMWB_Brochure.pdf">Guaranteed Withdrawals</option>
 						</select>
 					</form>
 
@@ -143,6 +143,39 @@
 
 			<div id="contact-left">
 				<h1 class="content-h1">Contact</h1>
+				<form action="gadget.php" enctype="multipart/form-data" method="post">
+	                <fieldset>
+	                    <input type="hidden" value="username: Name, useremail: Email Address, commentBox: Comment" name="required">
+	                    <input type="hidden" value="bkmorris8MESSTHATATgmail.com" name="recipients">
+	                    <input type="hidden" value="LIIO General Request" name="subject">
+	                    <input type="hidden" value="success.html" name="good_url">
+	                    <input type="hidden" value="error.html" name="bad_url">        
+	                    <table>
+	                        <tr>
+	                            <td><p>Name</p></td>
+	                            <td><input type="text" name="username" ></td>
+	                        </tr>
+	                        <tr>
+	                            <td><p>Email</p></td>
+	                            <td><input type="text" name="useremail" ></td>
+	                        </tr>
+	                    </table>
+	                    <table>
+	                        <tr>
+	                            <p>How can I help you?</p>
+	                        </tr>
+	                        <tr>
+	                            <textarea rows="10" cols="30" name="commentBox"></textarea>
+	                        </tr>
+	                    </table>
+	                </fieldset>
+	                <table>
+	                    <tr>
+	                        <td><input type="submit" value="Send"></td>
+	                        <td><input type="reset" value="Reset" name="Reset"></td>
+	                    </tr>
+	                </table>
+	            </form>				
 			</div><!-- end contact-left -->
 
 			<div id="privacy-left">
