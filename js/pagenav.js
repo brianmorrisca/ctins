@@ -18,6 +18,7 @@ $('#logo').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 });
 $('#home-nav').click(function() {
     $('#home-nav').css('text-decoration', '');
@@ -38,6 +39,7 @@ $('#home-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 });
 
 
@@ -61,6 +63,7 @@ $('#about-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');    
+    $('#testimonials-left').css('display', '');
 });
 
 // Location
@@ -83,6 +86,7 @@ $('#location-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Contact
@@ -105,6 +109,7 @@ $('#contact-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Privacy
@@ -127,6 +132,7 @@ $('#privacy-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Disclaimer
@@ -149,6 +155,7 @@ $('#disclaimer-nav').click(function() {
     $('#disclaimer-left').css('display', 'block');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Site Map
@@ -171,6 +178,7 @@ $('#sitemap-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', 'block');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Accessibility
@@ -193,7 +201,30 @@ $('#accessibility-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', 'block');
+    $('#testimonials-left').css('display', '');
 
+});
+// Testimonials
+$('#testimonial-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', 'block');
 });
 
 
@@ -217,6 +248,7 @@ $('#site-home-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 });
 
 
@@ -240,6 +272,7 @@ $('#site-about-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');    
+    $('#testimonials-left').css('display', '');
 });
 
 // Location
@@ -262,6 +295,7 @@ $('#site-location-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Contact
@@ -284,6 +318,7 @@ $('#site-contact-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Privacy
@@ -306,6 +341,7 @@ $('#site-privacy-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 // Disclaimer
@@ -328,6 +364,7 @@ $('#site-disclaimer-nav').click(function() {
     $('#disclaimer-left').css('display', 'block');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', '');
 
 });
 
@@ -351,6 +388,31 @@ $('#site-accessibility-nav').click(function() {
     $('#disclaimer-left').css('display', '');
     $('#sitemap-left').css('display', '');
     $('#accessibility-left').css('display', 'block');
+    $('#testimonials-left').css('display', '');
+
+}); 
+
+// Testimonials
+$('#site-testimonial-nav').click(function() {
+    $('#home-nav').css('text-decoration', 'none');
+    $('#about-nav').css('text-decoration', '');
+    $('#location-nav').css('text-decoration', '');
+    $('#contact-nav').css('text-decoration', '');
+    $('#privacy-nav').css('text-decoration', '');
+    $('#disclaimer-nav').css('text-decoration', '');
+    $('#sitemap-nav').css('text-decoration', '');
+    $('#accessibility-nav').css('text-decoration', '');
+
+    $('#personal-left').css('height', '0px');
+    $('.slidesjs-pagination').css('display', 'none');
+    $('#about-left').css('display', '');
+    $('#location-left').css('display', '');
+    $('#contact-left').css('display', '');
+    $('#privacy-left').css('display', '');
+    $('#disclaimer-left').css('display', '');
+    $('#sitemap-left').css('display', '');
+    $('#accessibility-left').css('display', '');
+    $('#testimonials-left').css('display', 'block');
 
 }); /* END SITEMAP NAV */
 

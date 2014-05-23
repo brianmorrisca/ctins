@@ -60,6 +60,8 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 
 .content-h1 { margin-bottom:10px;}
 
+#testimonials-left { display: none; padding-top:10px; }
+
 #about-left { display:none; padding-top:10px; }
 
 #location-left { display:none; padding-top:10px; }
