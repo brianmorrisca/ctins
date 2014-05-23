@@ -419,8 +419,6 @@ $('#site-testimonial-nav').click(function() {
 
 
 $('#personal').click(function() {
-	$('#personal').css('text-decoration', '');
-	$('#business').css('text-decoration', '');
 	$('#option').css('background', ''); 
 	$('#freequote-form').css('background-color', '');
 	$('#freequote-form').css('border', '');
@@ -432,8 +430,6 @@ $('#personal').click(function() {
 });
 
 $('#business').click(function() {	
-	$('#personal').css('text-decoration', 'none');
-	$('#business').css('text-decoration', 'underline');
 	$('#freequote-form').css('background-color', '#9CCEFF');
 	$('#freequote-form').css('border', '1px solid #499bea');
 	$('#freequote-form').css('border-top', '');
