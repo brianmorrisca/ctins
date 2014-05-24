@@ -430,21 +430,21 @@ $('#personal').click(function() {
 });
 
 $('#business').click(function() {	
-	$('#freequote-form').css('background-color', '#9CCEFF');
-	$('#freequote-form').css('border', '1px solid #499bea');
+	$('#freequote-form').css('background-color', '#c9de96');
+	$('#freequote-form').css('border', '1px solid #398235');
 	$('#freequote-form').css('border-top', '');
-	$('#testimonials').css('background-color', '#9CCEFF');
-	$('#testimonials').css('border', '1px solid #499bea');
+	$('#testimonials').css('background-color', '#c9de96');
+	$('#testimonials').css('border', '1px solid #398235');
 	$('#testimonials').css('border-top', '');
-	$('#option').css('background', '#499bea');
+	$('#option').css('background', '#c9de96');
 	$('#option').css('background', 'url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5OWJlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMDdjZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+)');
-	$('#option').css('background', '-moz-linear-gradient(top,  #499bea 0%, #207ce5 100%)');
-	$('#option').css('background', '-webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5))');
-	$('#option').css('background', '-webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%)');
-	$('#option').css('background', '-o-linear-gradient(top,  #499bea 0%,#207ce5 100%)');
-	$('#option').css('background', '-ms-linear-gradient(top,  #499bea 0%,#207ce5 100%)');
-	$('#option').css('background', 'linear-gradient(to bottom,  #499bea 0%,#207ce5 100%)');
-    $('#resources').css('background-color', '#9CCEFF');
+	$('#option').css('background', '-moz-linear-gradient(top,  #c9de96 0%, #398235 100%)');
+	$('#option').css('background', '-webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9de96), color-stop(100%,#398235))');
+	$('#option').css('background', '-webkit-linear-gradient(top,  #c9de96 0%,#398235 100%)');
+	$('#option').css('background', '-o-linear-gradient(top,  #c9de96 0%,#398235 100%)');
+	$('#option').css('background', '-ms-linear-gradient(top,  #c9de96 0%,#398235 100%)');
+	$('#option').css('background', 'linear-gradient(to bottom,  #c9de96 0%,#398235 100%)');
+    $('#resources').css('background-color', '#c9de96');
     $('#personal-brochures').css('display', 'none');
     $('#business-brochures').css('display', 'block');
 });
