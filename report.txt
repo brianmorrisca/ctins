@@ -6,114 +6,71 @@
     }
   </style>
 <![endif]-->
+
+<!--[if IE]>
+<style type="text/css">
+html, body { text-align:center;}
+#logo {float:left; border:0; color:#555; font-size:1.2em; text-decoration:none; }			
+#top { } 
+#top-social {  }
+a { outline:0; }
+a img { border:0; outline:0; }
+</style>
+<![endif]-->
+
 <style type="text/css">
 <!--
 html { background-color:#fff; }
 body { font-family:Arial, sans-serif; margin:0 auto; color:#333;}
-hr { border:0; border-bottom: 1px solid #4096EE; -webkit-box-shadow: 0 1px 0 0 #fff; -moz-box-shadow: 0 1px 0 0 #fff; box-shadow: 0 1px 0 0 #fff; }
 a { outline: 0; }
-h1 { font-family: Arial, sans-serif; font-size:1.4em; color:#333; }
-h2 { font-family: Arial, sans-serif; font-size:1.2em; color:#333; }
+
 p { margin: 0; }
-#top { padding:13px 10px; margin:0 -10px 35px -10px;
--webkit-box-shadow: 0 8px 8px -6px black;
-	   -moz-box-shadow: 0 8px 8px -6px black;
-	        box-shadow: 0 8px 8px -6px black;
 
-background: #7abcff; /* Old browsers */
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdhYmNmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzYwYWJmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MDk2ZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(top,  #7abcff 0%, #60abf8 44%, #4096ee 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7abcff), color-stop(44%,#60abf8), color-stop(100%,#4096ee)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* IE10+ */
-background: linear-gradient(to bottom,  #7abcff 0%,#60abf8 44%,#4096ee 100%); /* W3C */}
+#logo { float:left; color:#555; font-size:1.2em; margin-right:200px; }			
 
-#top-container { margin: 0 auto; width: 1000px; }			
-#logo {color:#fff; font-size:1.2em; }			
+#link-back {float:right; font-size:1.2em; }
+#link-back:hover { text-decoration:underline; }
 
-#top-social { float:right; } 
-#top-social a { float:left; margin-right:10px; text-decoration:none; font-size:1.2em; color:#fff; }
-#top-social a:hover { color:#24890D; cursor:pointer; }
-#top-social p { float:left; margin-right:8px; }
-#top-social img { float:left; opacity:0.6; }
-#top-social img:hover { opacity:1; }
+#quote-table-header { padding-top:50px; padding-bottom:20px; width:1000px; margin:0 auto; overflow:auto;}
+#quote-table-header h1 { float:left; color:#555; font-size:1.2em; font-weight:normal; padding:0; margin:0;}
 
-#quote-container { width:1000px; margin:0 auto; padding-bottom:30px; }
-#quote-info { float:left; width:600px; }
-#quote-info a { color:#fff; float:left; display: block; margin-right:15px; padding:5px 10px 5px 10px; font-size:1.2em; background-color:#4096EE; }
-#quote-info a:hover { background-color:#24890D; }
-#quote-info-box {width:300px; float:right; margin-top:20px; margin-right:70px; border:1px solid #4096EE; padding:10px; }
-#quote-table-header { clear:both; width:1000px; margin:0 auto; }
-#quote-table-header h1 { text-align:center; }
-center { width:650px; margin:0 auto;}
-form {}
-.rTable { border:1px solid #4096EE; padding:0 20px 20px 20px; width:650px; }
+#option { clear:both; height:30px; width:1000px; margin:0 auto;
+	background: #499bea;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5OWJlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMDdjZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#499bea), color-stop(100%,#207ce5));
+	background: -webkit-linear-gradient(top,  #499bea 0%,#207ce5 100%);
+	background: -o-linear-gradient(top,  #499bea 0%,#207ce5 100%);
+	background: -ms-linear-gradient(top,  #499bea 0%,#207ce5 100%);
+	background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%);
+}
+
+center { width:1000px; margin:0 auto;}
+
+.rTable { border:1px solid #207ce5; padding:0 20px 20px 20px; width:1000px; }
 td.rHead { background:none; border:none; }
 td.rTrColHead { text-align:center; vertical-align:bottom; padding:25px 0 15px 0; color:#333; font-size:1.1em; background-color:#fff; border:none;}
 .rTd { background:none; padding:10px 0 10px 0; font-size:0.9em; color:rgb(77,77,77); border:none; text-align:center; }
-.rTable > tbody > tr > td > table > tbody > tr:hover { cursor:default; background-color:#4096EE; }
+.rTable > tbody > tr > td > table > tbody > tr:hover { cursor:default; background-color:#499bea; }
 .rTable > tbody > tr > td > table > tbody > tr:hover > td.rTd { color:#fff; }
 table { }
+
 .reportOptionButton {display:none;}
 .reportOptionButtonOver {cursor:pointer;}
-tr { }
-td {}
+
 tr.rDisc { background:none; padding-top:10px; font-size:0.7em; font-weight:normal; line-height:1.1; }
 .rTable > tbody > tr > td > table > tbody > tr.rDisc:hover { background-color:#fff; }
 tr.rDisc > td > font{ color:#333; vertical-align:bottom; }
 .clear {clear:both;}
 -->
-<!--[if IE]>
-html, body { text-align:center;}
-#logo {float:left; border:0; color:#fff; font-size:1.1em; text-decoration:none; }			
-#top { background: #7abcff;
-/* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzdhYmNmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzYwYWJmOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MDk2ZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-} 
-#top-social {  }
-#quote-info { text-align: left; }
-a { outline:0; }
-a img { border:0; outline:0; }
-  <style type="text/css">
-    .gradient {
-       filter: none;
-    }
-  </style>
-<![endif]-->
-
 </style>
-<div id="top" class="gradient">
-	<div id="top-container">
-		<a href="http://www.lifeinsuranceinontario.com/temp/index.html" id="logo">Life Insurance in Ontario</a>
-		<div id="top-social">
-			<a href="http://www.lifeinsuranceinontario.com/temp/blog/"><p>Blog</p></a>
-			<a href="http://www.lifeinsuranceinontario.com/temp/about.html"><p>About</p></a>
-			<a href="http://www.lifeinsuranceinontario.com/temp/contact.html"><p>Contact</p></a>
-			<a href="https://twitter.com/lifeinsuranceon" target="_blank"><img src="http://www.lifeinsuranceinontario.com/temp/img/twitter.png" width="24" height="24" alt="Life Insurance in Ontario Twitter"></a>      	  
-			<a href="#"><img src="http://www.lifeinsuranceinontario.com/temp/img/facebook.png" width="24" height="24" alt="Life Insurance in Ontario Facebook"></a>        	  
-			<!-- <img src="http://www.lifeinsuranceinontario.com/temp/img/linkedin.png" width="24" height="24" alt="Life Insurance in Ontario LinkedIn"> -->        	  
-			<a href="#"><img src="http://www.lifeinsuranceinontario.com/temp/img/google-plus.png" width="24" height="24" alt="Life Insurance in Ontario Google+"></a>        	  
-		</div>
-	</div>
-    <div class="clear"></div>
-</div><!-- end top -->
-<div id="quote-container">
-	<div id="quote-info" class="clear">
-		<h1>Simple, Reliable Protection.</h1>
-		<a href="http://www.lifeinsuranceinontario.com/temp/contact.html">Contact</a>
-		<h2>Brian Morris</h2>
-	</div>
-	
-	<div id="quote-info-box">
-		<h2>Call Brian Morris: 416.598.3056</h2>
-	</div>
-	<br class="clear" />
-</div>
+
 <div id="quote-table-header">
-	<hr>
+	<a href="http://www.lifeinsuranceinontario.com/temp/index.html" id="logo">Life Insurance in Ontario</a>
 	<h1>Your Instant Quote</h1>
+	<a href="http://www.lifeinsuranceinontario.com/temp/index.html" id="link-back">Return to Life Insurance in Ontario</a>
+</div>
+<div id="option">
 </div>
 
 
