@@ -66,13 +66,18 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 #about-left img { float:right; margin-right:40px; margin-top:30px;}
 #about-left p { width:450px; margin-bottom:10px;}
 #about-left ul { margin-left:20px; margin-bottom: 10px;}
-#about-left li { font-size: 0.9em; margin-bottom:5px; list-style-type: square; list-style-position: inside; }
+#about-left li { font-size: 0.9em; margin-bottom:5px; list-style-type: square; list-style-position: outside; }
 #about-left h2:before { content:'"'; margin-left:-5px; color:#ccc; font-size:1.2em;}
 #about-left h2 { font-style:italic; padding-top:30px; font-size:1.8em; color:#999; opacity:0.5;}
 #about-left h2:after { content:'"'; color:#ccc; font-size:1.2em;}
 
 #location-left { display:none; padding:10px;}
-#location-left img { float:right; margin:0 20px; }
+#location-left img { float:right; margin:0 20px 10px 20px; border:1px solid #ccc; }
+#location-left img:hover { border:1px solid #333; }
+#location-left p { margin-bottom:10px;}
+#location-left ul { margin-left:20px; margin-bottom: 10px;}
+#location-left li { font-size: 0.8em; margin-bottom:5px; list-style-type: square; list-style-position: outside; }
+
 
 #contact-left { display:none; padding:10px;}
 #contact-left fieldset { border:none; }
@@ -85,7 +90,8 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 #sitemap-left { display:none; padding:10px;}
 .sitemap-list {float:left; width:200px; }
 #sitemap-left h2 { font-size: 0.9em; }
-#sitemap-left li { list-style-position: inside; list-style-type: disc; font-size:0.8em;}
+#sitemap-left ul { margin-left:20px; }
+#sitemap-left li { list-style-position: outside; list-style-type: square; font-size:0.8em;}
 
 #accessibility-left { display:none; padding:10px; }
 
