@@ -8,6 +8,7 @@ a:hover {text-decoration: underline;}
 
 h1 { font-size:1em; }
 p {font-size:0.8em;}
+select:hover { cursor: pointer;}
 
 #container { width:1000px; margin:0 auto; padding-top:40px; }
 
@@ -84,13 +85,23 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 #contact-left form { float:right; margin-right:50px; }
 #contact-left input[type=text] { width:200px; padding:5px; margin-bottom:10px; border:1px solid #ccc; }
 #contact-left input[type=text]:focus { border:1px solid #333;}
-#contact-left textarea { border:1px solid #ccc; padding:5px; }
+#contact-left textarea { border:1px solid #ccc; padding:5px; margin-bottom: 10px; }
 #contact-left textarea:focus { border:1px solid #333;}
+#contact-left input[type=submit] { padding:3px; width:75px; border:1px solid #ccc; background-color:#fff;}
+#contact-left input[type=submit]:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333;}
+#contact-left input[type=reset] {padding:3px; width:55px; border:1px solid #ccc; background-color:#fff; }
+#contact-left input[type=reset]:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333; }
+
 
 #privacy-left { display:none; padding:10px 20px 10px 10px;}
 #privacy-left h2 { font-size:0.9em; margin-bottom:10px; padding-top:10px; }
+#privacy-left p { margin-bottom:10px; }
+#privacy-left p + p { text-indent:1em; }
 
 #disclaimer-left { display:none; padding:10px 20px 10px 10px;}
+#disclaimer-left p { margin-bottom:10px; }
+#disclaimer-left p + p { text-indent:1em; }
+
 
 #sitemap-left { display:none; padding:10px 20px 10px 10px; margin-bottom:10px; }
 .sitemap-list {float:left; width:200px; margin-right:50px; }
@@ -115,11 +126,12 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 #freequote-form select { float:left; font-size:0.6em; }
 #tuTable {width:80px;}
 .freequote-radio { font-size:0.7em; }
-#freequote-form input[type=radio] { vertical-align: middle; }
-#freequote-form input[type=submit] { padding:2px; }
-#freequote-form input[type=submit]:hover {cursor: pointer;}
-#freequote-form input[type=reset] {padding:2px; }
-#freequote-form input[type=reset]:hover {cursor: pointer;}
+#freequote-form table { margin-bottom: 10px; }
+#freequote-form input[type=radio]:hover { cursor: pointer; }
+#freequote-form input[type=submit] { padding:3px; width:75px; border:1px solid #ccc; background-color:#fff;}
+#freequote-form input[type=submit]:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333;}
+#freequote-form input[type=reset] {padding:3px; width:55px; border:1px solid #ccc; background-color:#fff; }
+#freequote-form input[type=reset]:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333; }
 
 
 #testimonials { margin-bottom:40px; background-color:#9CCEFF; border:1px solid #207ce5; border-top:0; padding:10px; overflow:auto; }
