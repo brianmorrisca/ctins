@@ -427,6 +427,7 @@ $('#personal').click(function() {
     $('#personal-brochures').css('display', '');
     $('#business-brochures').css('display', 'none');
     $('#resources').css('background-color', '');
+    $('#footer').css('border-top', '');
 });
 
 $('#business').click(function() {	
@@ -447,4 +448,5 @@ $('#business').click(function() {
     $('#resources').css('background-color', '#c9de96');
     $('#personal-brochures').css('display', 'none');
     $('#business-brochures').css('display', 'block');
+    $('#footer').css('border-top', '1px solid #398235');
 });
