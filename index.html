@@ -53,8 +53,8 @@
 				<div id="resources">
 					<form id="personal-brochures">
 						<h1>Brochures</h1>
-						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option value="#">Select a Brochure</option>
+						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value, '', 'width=750, height=400')">
+							<option value="select-a-brochure.html">Select a Brochure</option>
 							<option value="content/QIS-Personal_Overview_Brochure.pdf">Personal Insurance Overview</option>
 							<option value="content/Life_Insurance_Brochure.pdf">Life Insurance</option>
 							<option value="content/Living_Benefits_Brochure.pdf">Living Benefits</option>
@@ -67,8 +67,8 @@
 
 					<form id="business-brochures">
 						<h1>Business Brochures</h1>
-						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option value="#">Select a Brochure</option>
+						<select name="brochures" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value, '', 'width=750, height=400')">
+							<option value="select-a-brochure.html">Select a Brochure</option>
 							<option value="content/Business_Protection.pdf">Business Protection</option>
 							<option value="content/Business_Succession.pdf">Business Succession</option>
 							<option value="content/Life_Insurance_for_Business.pdf">Life Insurance for Business</option>
@@ -81,11 +81,17 @@
 
 					<form>
 						<h1>Products</h1>
-						<select name="products" title="Product Types" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option value="#">Product Descriptions</option>
-							<option>Whole Life</option>
+						<select name="products" title="Product Types" onchange="window.open(this.options[this.selectedIndex].value, '', 'width=750, height=400')">
+							<option value="products/product-descriptions.html">Product Descriptions</option>
+							<option value="products/whole-life.html">Whole Life</option>
 							<option>Term Life</option>
+							<option value="products/whole-life.html#participating">Participating Life</option>
 							<option>Universal Life</option>
+							<option>Disability</option>
+							<option>Critical Illness</option>
+							<option>Long Term Care</option>
+							<option>Accident &amp; Sickness</option>
+							<option>Benefits</option>
 							<option>Annuities</option>
 							<option>Segregated Funds</option>
 						</select>
@@ -93,8 +99,8 @@
 
 					<form style="margin-right:0px;">
 						<h1>Supported Carriers</h1>
-						<select name="carriers" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value);">
-							<option value="#">View Carrier Websites</option>
+						<select name="carriers" title="Informational Brochures" onchange="window.open(this.options[this.selectedIndex].value, '', 'width=750, height=400')">
+							<option value="supported-carriers.html">View Carrier Websites</option>
 							<option value="http://www.assumption.ca">Assumption</option>
 							<option value="http://www.bbd.ca">Benefits By Design</option>
 							<option value="http://www.bmo.com/insurance">BMO Insurance</option>
@@ -110,7 +116,7 @@
 							<option value="http://www.olympiabenefits.com">Olympia Benefits</option>
 							<option value="http://www.rbcinsurance.com">RBC Insurance</option>
 							<option value="http://www.sunlife.com">Sun Life</option>
-							<option value="http://www.ssq.ca/insurance/">SSQ Insurance</option>
+							<option value="http://www.ssq.ca/home">SSQ Insurance</option>
 							<option value="http://www.standardlife.ca">Standard Life</option>
 							<option value="http://www.edgebenefits.com">The Edge</option>
 							<option value="http://www.transamerica.ca">Transamerica</option>
