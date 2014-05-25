@@ -135,7 +135,7 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 
 
 #testimonials { margin-bottom:40px; background-color:#9CCEFF; border:1px solid #207ce5; border-top:0; padding:10px; overflow:auto; }
-#testimonials h2 { font-size:1em; margin-bottom:5px; }
+#testimonials h1 { font-size:1em; margin-bottom:5px; }
 #testimonials p { font-size:0.8em; }
 #testimonials a { float:right; color:#333; font-size:0.8em; }
 #testimonial-slides {display:none;}
@@ -178,3 +178,10 @@ transition-delay: initial;
 
 /* POP OUT PRODUCTS */
 
+.product-body { max-width: 750px; padding:20px; }
+.product-body header { margin-bottom:10px; }
+.product-body article { margin-bottom: 20px; }
+.product-body h2 { font-size: 0.9em; margin-bottom:5px; padding-top:10px;}
+.product-body p { margin-bottom: 10px; }
+.product-body ul { margin-left:20px; }
+.product-body li { list-style-position: outside; list-style-type: square; font-size:0.8em;}
