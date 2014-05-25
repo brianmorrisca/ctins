@@ -92,8 +92,8 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 
 #disclaimer-left { display:none; padding:10px 20px 10px 10px;}
 
-#sitemap-left { display:none; padding:10px 20px 10px 10px;}
-.sitemap-list {float:left; width:200px; }
+#sitemap-left { display:none; padding:10px 20px 10px 10px; margin-bottom:10px; }
+.sitemap-list {float:left; width:200px; margin-right:50px; }
 #sitemap-left h2 { font-size: 0.9em; margin-bottom:10px; padding-top:10px; }
 #sitemap-left ul { margin-left:20px; }
 #sitemap-left li { list-style-position: outside; list-style-type: square; font-size:0.8em;}
