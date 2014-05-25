@@ -94,7 +94,7 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 
 
 #privacy-left { display:none; padding:10px 20px 10px 10px;}
-#privacy-left h2 { font-size:0.9em; margin-bottom:10px; padding-top:10px; }
+#privacy-left h2 { font-size:0.9em; margin-bottom:5px; padding-top:10px; }
 #privacy-left p { margin-bottom:10px; }
 #privacy-left p + p { text-indent:1em; }
 
@@ -105,12 +105,12 @@ li.slidesjs-pagination-item	a.active { background-color:#999;}
 
 #sitemap-left { display:none; padding:10px 20px 10px 10px; margin-bottom:10px; }
 .sitemap-list {float:left; width:200px; margin-right:50px; }
-#sitemap-left h2 { font-size: 0.9em; margin-bottom:10px; padding-top:10px; }
+#sitemap-left h2 { font-size: 0.9em; margin-bottom:5px; padding-top:10px; }
 #sitemap-left ul { margin-left:20px; }
 #sitemap-left li { list-style-position: outside; list-style-type: square; font-size:0.8em;}
 
 #accessibility-left { display:none; padding:10px 20px 10px 10px; margin-bottom:10px; }
-#accessibility-left h2 { font-size:0.9em; margin-bottom:10px; padding-top:10px; }
+#accessibility-left h2 { font-size:0.9em; margin-bottom:5px; padding-top:10px; }
 #accessibility-left p { margin-bottom:10px; }
 #accessibility-left ul { margin-left:20px; margin-bottom: 10px;}
 #accessibility-left li { font-size: 0.8em; margin-bottom:5px; list-style-type: square; list-style-position: outside; }
