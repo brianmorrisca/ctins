@@ -43,11 +43,51 @@ select:hover { cursor: pointer;}
 
 #personal-left { overflow: hidden;}
 #focus { display:none; }
-.slidesjs-pagination { z-index:100; margin-top:-20px; position: absolute; }
+#slide-1 { background:url('img/slide-safe-family.jpg'); width:750px; height:400px; }
+#slide-1 h1 { padding-top:30px; font-size:1.5em; margin-bottom:20px; line-height: 1.3;}
+#slide-1 article { width:350px; padding:20px 20px 20px 10px; }
+#slide-1 p { margin-bottom:20px; font-size:0.9em; }
+#slide-1 p + p { margin-bottom:30px; font-size:0.9em; }
+#slide-1 a { font-size:1em; padding:10px; width:75px; border:1px solid #ccc; background-color:#fff;}
+#slide-1 a:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333; text-decoration: none; }
+
+#slide-2 { background:url('img/slide-building-years.jpg'); width:750px; height:400px; }
+#slide-2 h1 { padding-top:30px; font-size:1.5em; margin-bottom:20px; line-height: 1.3;}
+#slide-2 article { width:325px; padding:20px 20px 20px 10px; }
+#slide-2 p { margin-bottom:20px; font-size:0.9em; }
+#slide-2 p + p { margin-bottom:30px; font-size:0.9em; }
+#slide-2 a { font-size:1em; padding:10px; width:75px; border:1px solid #ccc; background-color:#fff;}
+#slide-2 a:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333; text-decoration: none; }
+
+#slide-3 { background:url('img/slide-wealth-transfer.jpg'); width:750px; height:400px; }
+#slide-3 h1 { padding-top:30px; font-size:1.5em; margin-bottom:20px; line-height: 1.3;}
+#slide-3 article { float:right; width:300px; padding:10px 20px 20px 20px; }
+#slide-3 p { margin-bottom:20px; font-size:0.9em; }
+#slide-3 p + p { margin-bottom:30px; font-size:0.9em; }
+#slide-3 a { font-size:1em; padding:10px; width:75px; border:1px solid #ccc; background-color:#fff;}
+#slide-3 a:hover {cursor: pointer; background-color:#FF9F00; border:1px solid #333; text-decoration: none; }
+
+
+.slidesjs-pagination { z-index:100; margin-left:10px; margin-top:-35px; position: absolute; }
 li.slidesjs-pagination-item { list-style-type: none; float:left; }
-li.slidesjs-pagination-item	a { text-indent:-9999px; overflow:hidden; width:20px; height:20px; display:block; background-color:#777;}
-li.slidesjs-pagination-item	a:hover { background-color:#444;}
-li.slidesjs-pagination-item	a.active { background-color:#999;}
+li.slidesjs-pagination-item	a { border:1px solid #333; margin-right:5px; text-indent:-9999px; overflow:hidden; width:25px; height:25px; display:block; background-color:#fff;}
+li.slidesjs-pagination-item	a:hover { background-color:#FF9F00; border:1px solid #555;}
+li.slidesjs-pagination-item	a.active { background-color:#333; }
+
+.slide-content-body { max-width: 749px; padding:20px; }
+.slide-content-body img { margin-bottom:20px; }
+.slide-content-body img.profile { float:left; margin-right:20px; }
+.slide-content-body img.profile:last-of-type { float:right; margin-left:20px; }
+.slide-content-body header { margin-bottom:10px; }
+.slide-content-body article { margin-bottom: 20px; }
+.slide-content-body h1 { font-size: 1em; margin-bottom:5px; padding-top:10px; padding-bottom: 5px; text-align: center; }
+.slide-content-body h2 { color:#207ce5; font-size:1em; padding-top:15px; margin-bottom:5px; }
+.slide-content-body h3 { color:#555; font-size:0.9em; padding-top:10px; margin-bottom: 5px;  }
+.slide-content-body p { margin-bottom: 10px; }
+.slide-content-body ul { margin:0 3%; background-color:#ccc; padding:20px; padding-left: 40px; border:1px solid #555; }
+.slide-content-body li { list-style-position: outside; list-style-type: square; font-size:0.8em; margin-bottom:5px; }
+
+
 
 #resources { background-color:#9CCEFF; margin-bottom:30px; padding:10px 0 10px 20px; clear:left; overflow:auto;}
 #resources h1 { font-size:1em; }
