@@ -33,7 +33,7 @@
 	#quote-table-header { padding-top:50px; padding-bottom:20px; width:1000px; margin:0 auto; overflow:auto;}
 	#quote-table-header h1 { float:left; color:#555; font-size:1.2em; font-weight:normal; padding:0; margin:0;}
 
-	#option { clear:both; height:30px; width:1000px; margin:0 auto;
+	#option { clear:both; height:50px; width:1000px; margin:0 auto;
 		background: #499bea;
 		background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5OWJlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMDdjZTUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 		background: -moz-linear-gradient(top,  #499bea 0%, #207ce5 100%);
@@ -43,7 +43,7 @@
 		background: -ms-linear-gradient(top,  #499bea 0%,#207ce5 100%);
 		background: linear-gradient(to bottom,  #499bea 0%,#207ce5 100%);
 	}
-	#option p { float:right; color:#fff; font-size:0.8em; padding:7px; }
+	#option p { text-align:center; color:#fff; font-size:1.3em; padding:7px; padding-top:15px;}
 
 
 	center { width:1000px; margin:0 auto;}
@@ -74,7 +74,7 @@
 </div>
 
 <div id="option">
-	<p>Lock in your rate by calling Brian at 416.598.3056</p>
+	<p>Get these rates by calling Brian Morris at 416.598.3056</p>
 </div>
 
 
