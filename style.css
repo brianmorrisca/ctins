@@ -105,7 +105,7 @@ li.slidesjs-pagination-item	a.active { background-color:#ccc; }
 #testimonials-left p { margin-bottom: 10px; }
 
 #about-left { display:none; padding:10px 20px 10px 10px;}
-#about-left img { float:right; margin-right:30px; margin-top:30px;}
+#about-left img { float:right; margin-right:30px; margin-top:30px; border-bottom:1px solid #ccc;}
 #about-left p { width:450px; margin-bottom:10px;}
 #about-left ul { margin-left:20px; margin-bottom: 10px;}
 #about-left li { font-size: 0.9em; margin-bottom:5px; list-style-type: square; list-style-position: outside; }
