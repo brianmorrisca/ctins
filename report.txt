@@ -77,10 +77,10 @@
 </style>
 
 <div id="quote-table-header">
-	<a href="http://www.lifeinsuranceinontario.com/temp/index.html" id="logo">Life Insurance in Ontario</a>
+	<a href="http://www.lifeinsuranceinontario.com/index.html" id="logo">Life Insurance in Ontario</a>
 	<h1>Your Instant Quote</h1>
 	<div id="link-back">
-		<a href="http://www.lifeinsuranceinontario.com/temp/index.html">Return to Life Insurance in Ontario</a>		
+		<a href="http://www.lifeinsuranceinontario.com/index.html">Return to Life Insurance in Ontario</a>		
 	</div>
 </div>
 
