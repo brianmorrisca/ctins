@@ -40,14 +40,13 @@ select:hover { cursor: pointer;}
 
 
 
-
 #left-subcontainer { float:left; width:750px;}
 
 #personal-left { overflow: hidden;}
 #focus { display:none; }
 #slide-1 { background:url('img/slide-safe-family.jpg'); width:750px; height:400px; }
 #slide-1 h1 { padding-top:30px; font-size:1.5em; margin-bottom:20px; line-height: 1.3;}
-#slide-1 article { width:350px; padding:20px 20px 20px 10px; }
+#slide-1 .article { width:350px; padding:20px 20px 20px 10px; }
 #slide-1 p { margin-bottom:20px; font-size:0.9em; }
 #slide-1 p + p { margin-bottom:30px; font-size:0.9em; }
 #slide-1 a { font-size:1em; padding:10px; width:75px; border:1px solid #ccc; background-color:#fff;}
@@ -55,7 +54,7 @@ select:hover { cursor: pointer;}
 
 #slide-2 { background:url('img/slide-building-years.jpg'); width:750px; height:400px; }
 #slide-2 h1 { padding-top:30px; font-size:1.5em; margin-bottom:20px; line-height: 1.3;}
-#slide-2 article { width:325px; padding:20px 20px 20px 10px; }
+#slide-2 .article { width:325px; padding:20px 20px 20px 10px; }
 #slide-2 p { margin-bottom:20px; font-size:0.9em; }
 #slide-2 p + p { margin-bottom:30px; font-size:0.9em; }
 #slide-2 a { font-size:1em; padding:10px; width:75px; border:1px solid #ccc; background-color:#fff;}
@@ -63,7 +62,7 @@ select:hover { cursor: pointer;}
 
 #slide-3 { background:url('img/slide-wealth-transfer.jpg'); width:750px; height:400px; }
 #slide-3 h1 { padding-top:30px; font-size:1.5em; margin-bottom:20px; line-height: 1.3;}
-#slide-3 article { float:right; width:300px; padding:10px 20px 20px 20px; }
+#slide-3 .article { float:right; width:300px; padding:10px 20px 20px 20px; }
 #slide-3 p { margin-bottom:20px; font-size:0.9em; }
 #slide-3 p + p { margin-bottom:30px; font-size:0.9em; }
 #slide-3 a { font-size:1em; padding:10px; width:75px; border:1px solid #ccc; background-color:#fff;}
