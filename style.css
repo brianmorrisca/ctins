@@ -12,7 +12,7 @@ h1 { font-size:1em; }
 p {font-size:0.8em;}
 select:hover { cursor: pointer;}
 
-#warning { display:none; }
+#warning { display:none; width:1000px; margin:0 auto; padding:3%; color:#555;}
 #container { width:1000px; margin:0 auto; padding-top:40px; }
 
 #top-nav { float:right; font-size:0.8em; }
